@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Galería | La Reserva Pub</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" href="assets/img/logo.jpg">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/img/logo.jpg" />
   <script src="https://kit.fontawesome.com/9e9ef9c3f2.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <header>
     <div class="header-content">
@@ -28,29 +29,42 @@
   <main class="container">
     <h1 class="titulo-galeria">Galería de La Reserva Pub 🍸</h1>
 
+    <!-- GRID DE 12 IMÁGENES -->
     <section class="galeria-grid">
-      <!-- 12 imágenes (puedes reemplazar las rutas y nombres) -->
-      <img src="assets/img/galeria/1.jpg" alt="Galería 1" class="galeria-item">
-      <img src="assets/img/galeria/2.jpg" alt="Galería 2" class="galeria-item">
-      <img src="assets/img/galeria/3.jpg" alt="Galería 3" class="galeria-item">
-      <img src="assets/img/galeria/4.jpg" alt="Galería 4" class="galeria-item">
-      <img src="assets/img/galeria/5.jpg" alt="Galería 5" class="galeria-item">
-      <img src="assets/img/galeria/6.jpg" alt="Galería 6" class="galeria-item">
-      <img src="assets/img/galeria/7.jpg" alt="Galería 7" class="galeria-item">
-      <img src="assets/img/galeria/8.jpg" alt="Galería 8" class="galeria-item">
-      <img src="assets/img/galeria/9.jpg" alt="Galería 9" class="galeria-item">
-      <img src="assets/img/galeria/10.jpg" alt="Galería 10" class="galeria-item">
-      <img src="assets/img/galeria/11.jpg" alt="Galería 11" class="galeria-item">
-      <img src="assets/img/galeria/12.jpg" alt="Galería 12" class="galeria-item">
+      <!-- Cada imagen enlaza a un “lightbox” CSS -->
+      <a href="#img1"><img src="assets/img/galeria/1.jpg" alt="Galería 1"></a>
+      <a href="#img2"><img src="assets/img/galeria/2.jpg" alt="Galería 2"></a>
+      <a href="#img3"><img src="assets/img/galeria/3.jpg" alt="Galería 3"></a>
+      <a href="#img4"><img src="assets/img/galeria/4.jpg" alt="Galería 4"></a>
+      <a href="#img5"><img src="assets/img/galeria/5.jpg" alt="Galería 5"></a>
+      <a href="#img6"><img src="assets/img/galeria/6.jpg" alt="Galería 6"></a>
+      <a href="#img7"><img src="assets/img/galeria/7.jpg" alt="Galería 7"></a>
+      <a href="#img8"><img src="assets/img/galeria/8.jpg" alt="Galería 8"></a>
+      <a href="#img9"><img src="assets/img/galeria/9.jpg" alt="Galería 9"></a>
+      <a href="#img10"><img src="assets/img/galeria/10.jpg" alt="Galería 10"></a>
+      <a href="#img11"><img src="assets/img/galeria/11.jpg" alt="Galería 11"></a>
+      <a href="#img12"><img src="assets/img/galeria/12.jpg" alt="Galería 12"></a>
     </section>
+
+    <!-- LIGHTBOXES usando CSS -->
+    <article class="lightbox" id="img1"><a href="#"><img src="assets/img/galeria/1.jpg" alt=""></a></article>
+    <article class="lightbox" id="img2"><a href="#"><img src="assets/img/galeria/2.jpg" alt=""></a></article>
+    <article class="lightbox" id="img3"><a href="#"><img src="assets/img/galeria/3.jpg" alt=""></a></article>
+    <article class="lightbox" id="img4"><a href="#"><img src="assets/img/galeria/4.jpg" alt=""></a></article>
+    <article class="lightbox" id="img5"><a href="#"><img src="assets/img/galeria/5.jpg" alt=""></a></article>
+    <article class="lightbox" id="img6"><a href="#"><img src="assets/img/galeria/6.jpg" alt=""></a></article>
+    <article class="lightbox" id="img7"><a href="#"><img src="assets/img/galeria/7.jpg" alt=""></a></article>
+    <article class="lightbox" id="img8"><a href="#"><img src="assets/img/galeria/8.jpg" alt=""></a></article>
+    <article class="lightbox" id="img9"><a href="#"><img src="assets/img/galeria/9.jpg" alt=""></a></article>
+    <article class="lightbox" id="img10"><a href="#"><img src="assets/img/galeria/10.jpg" alt=""></a></article>
+    <article class="lightbox" id="img11"><a href="#"><img src="assets/img/galeria/11.jpg" alt=""></a></article>
+    <article class="lightbox" id="img12"><a href="#"><img src="assets/img/galeria/12.jpg" alt=""></a></article>
   </main>
 
   <footer>
     <p>&copy; 2025 La Reserva Pub - Popayán</p>
   </footer>
-
-  <!-- Script del Lightbox -->
-  <script src="assets/js/galeria.js"></script>
 </body>
 </html>
+
 
